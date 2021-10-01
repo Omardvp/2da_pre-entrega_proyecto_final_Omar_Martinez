@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda pre-entrega proyecto final</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Pizzeria "El Gran Ricardo"</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+
+    <main id="contenedor-productos">
+        <!-- Esto lo comento porque es pasa a ser el template de mi contenedor desde js con innetHTML -->
+       <!-- <div class="producto">
+             `<div class="card">
+                            <div class="card-image">
+                                <img src="/img/producto.jpg">
+                                <span class="card-title">producto1 (nombre) </span>
+                                <a class="btn-floating halfway-fab waves-effect waves-light red" id=><i class="material-icons">add_shopping_cart</i></a>
+                            </div>
+                            <div class="card-content">
+                                <p>Proudcto 1 descripcion</p>
+                                
+                                <p>Poducto 1 Precio = $100</p>
+                            </div>`
+        </div>  -->
+    </main>
+
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+              <!-- Esta linea la comento porque pasa a ser el  template en mi producto agregado al carrito -->
+                <!-- <div class="productoEnCarrito">
+                   <p>Producto nombre</p>
+                    <p>Precio precio/p>
+                    <p>Producto agregar id, cantidad </p>
+                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                </div> -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+        </div>
+    </div>
+    <!-- Primero que lea mi array de objetos -->
+    <script src="js/stock.js"></script>
+    <!-- Segundo que lea mi modal  -->
+    <script src="js/modal.js"></script>
+    <!-- Por ultimo que lea mi archivo donde escribo la logica del funcionamineto de mi app   -->
+    <script src="js/app.js"></script>
+</body>
+</html>

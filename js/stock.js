@@ -1,0 +1,23 @@
+let stockProductos = [
+    {id: 1, nombre: "Pizza 1", tipo: "comida", desc: "Muzzarella", precio: 140, img: 'img/pizza1.jpg', cantidad:1},
+    {id: 2, nombre: "Pizza 2", tipo: "comida", desc: "Especial", precio: 180, img: 'img/pizza2.jpg', cantidad:1},
+    {id: 3, nombre: "Pizza 3", tipo: "comida", desc: "Calabresa", precio: 200, img: 'img/pizza3.jpeg', cantidad:1},
+    {id: 4, nombre: "Pizza 4", tipo: "comida", desc: "Gran Ricardo", precio: 250, img: 'img/pizza4.jpg', cantidad:1},
+    {id: 5, nombre: "Hamburguesa 1", tipo: "comida", desc: "Simple", precio: 200, img: 'img/hamburguesa1.jpg', cantidad:1},
+    {id: 6, nombre: "Hamburguesa 2", tipo: "comida", desc: "Completa", precio: 250, img: 'img/hamburguesa2.jpg', cantidad:1},
+    {id: 7, nombre: "Lomo 1", tipo: "comida", desc: "Simple", precio: 300,  img: 'img/lomo1.jpg', cantidad:1},
+    {id: 8, nombre: "Lomo 2", tipo: "comida", desc: "Completo", precio: 350,  img: 'img/lomo2.jpg', cantidad:1},
+    {id: 9, nombre: "Empanadas 1", tipo: "comida", desc: "Arabes", precio: 400,  img: 'img/empanadas1.jpg', cantidad:1},
+    {id: 10, nombre: "Empanadas 2", tipo: "comida", desc: "Criollas", precio: 400,  img: 'img/empanadas2.jpg', cantidad:1},
+    {id: 11, nombre: "Empanadas 3", tipo: "comida", desc: "Jamon & Queso", precio: 400,  img: 'img/empanadas3.jpg', cantidad:1},
+    {id: 12, nombre: "Papas fritas", tipo: "comida", desc: "Porcion", precio: 100,  img: 'img/papas.jpg', cantidad:1},
+    {id: 13, nombre: "Gaseosa 1", tipo: "bebida", desc: "Linea Coca Cola", precio: 80,  img: 'img/gaseosa1.png', cantidad:1},
+    {id: 14, nombre: "Gaseosa 2", tipo: "bebida", desc: "Linea Pepsi", precio: 80,  img: 'img/gaseosa2.jpg', cantidad:1},
+    {id: 15, nombre: "Cerveza 1", tipo: "bebida", desc: "Quilmes", precio: 120,  img: 'img/cerveza1.jpg', cantidad:1},
+    {id: 16, nombre: "Cerveza 2", tipo: "bebida", desc: "Brahma", precio: 110,  img: 'img/cerveza2.jpg', cantidad:1},
+    {id: 17, nombre: "Vino 1", tipo: "bebida", desc: "Estancia Mendoza", precio: 160,  img: 'img/vino1.jpg', cantidad:1},
+    {id: 18, nombre: "Vino 2", tipo: "bebida", desc: "Pecado", precio: 130,  img: 'img/vino2.jpg', cantidad:1},
+    {id: 19, nombre: "Vino 3", tipo: "bebida", desc: "Vaso de vino la casa", precio: 50,  img: 'img/vino3.jpg', cantidad:1},
+    {id: 20, nombre: "Agua", tipo: "bebida", desc: "Sin gas", precio: 50,  img: 'img/agua.jpg', cantidad:1},
+]
+
